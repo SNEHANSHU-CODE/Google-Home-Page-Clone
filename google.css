@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.head{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    padding: 5px;
+}
+.head a{
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(78, 73, 73);
+}
+.head i{
+    cursor: pointer;
+    margin: 12px;
+}
+.head a:hover{
+    border-bottom: 1px solid rgb(78, 73, 73) ;
+}
+
+
+.main{
+    margin-top: 80px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 8px;
+    padding: 8px;
+}
+.container img{
+    width: 20vw;
+}
+.input{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 10px;
+}
+.input input{
+    width: 36vw;
+    min-width: 250px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 30px;
+}
+.input i{
+    margin: 4px;
+    padding: 4px;
+}
+#span a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(78, 73, 73);
+    background-color: rgba(220, 220, 220,0.3);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+}
+#foo a{
+    text-decoration: none;
+    margin: 6px;
+    font-size: 12px;
+}
+#foo span{
+    margin: 6px;
+    font-size: 15px;
+}
+
+.fa-search{
+    position: absolute;
+    padding: 5px;
+    color: rgba(39, 33, 33 ,0.5);
+    font-size: 15px;
+    padding: 3px;
+}
+.fa-microphone{
+    position: relative;
+    right: 30px;
+    color: rgb(0, 0, 255);
+    font-size: 17px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+
+.foot{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px;
+    background-color:rgba(220, 220, 220, 1);
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foot a{
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(78, 73, 73) ;
+}
+.foot a:hover{
+    border-bottom: 1px solid rgb(78, 73, 73) ;
+}
