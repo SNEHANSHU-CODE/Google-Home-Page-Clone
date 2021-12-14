@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
 
+github Pages :- https://snehanshu-code.github.io/Google-Home-Page-Clone/
+
 You can use the [editor on GitHub](https://github.com/SNEHANSHU-CODE/Google-Home-Page-Clone/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
